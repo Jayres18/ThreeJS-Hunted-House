@@ -1,4 +1,4 @@
-# Three.js Hunted House
+# Three.js Haunted House
 
 ## Setup
 
