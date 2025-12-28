@@ -26,18 +26,18 @@ const scene = new THREE.Scene();
 const textureLoader = new THREE.TextureLoader();
 
 // Floor - Texture
-const floorAlphaTexture = textureLoader.load("./floor/alpha.jpg");
+const floorAlphaTexture = textureLoader.load("./floor/alpha.webp");
 const floorColorTexture = textureLoader.load(
-  "./floor/coastSandRocks/coastSandRocksColor.jpg"
+  "./floor/coastSandRocks/coastSandRocksColor.webp"
 );
 const floorARMTexture = textureLoader.load(
-  "./floor/coastSandRocks/coastSandRocksARM.jpg"
+  "./floor/coastSandRocks/coastSandRocksARM.webp"
 );
 const floorNormalTexture = textureLoader.load(
-  "./floor/coastSandRocks/coastSandRocksNormal.jpg"
+  "./floor/coastSandRocks/coastSandRocksNormal.webp"
 );
 const floorDisplacementTexture = textureLoader.load(
-  "./floor/coastSandRocks/coastSandRocksDisplacement.jpg"
+  "./floor/coastSandRocks/coastSandRocksDisplacement.webp"
 );
 
 floorColorTexture.colorSpace = THREE.SRGBColorSpace;
@@ -59,26 +59,26 @@ floorDisplacementTexture.wrapT = THREE.RepeatWrapping;
 
 // Wall - Texture
 const wallColorTexture = textureLoader.load(
-  "./wall/castleBrickWall/castleBrickWallColor.jpg"
+  "./wall/castleBrickWall/castleBrickWallColor.webp"
 );
 const wallARMTexture = textureLoader.load(
-  "./wall/castleBrickWall/castleBrickWallARM.jpg"
+  "./wall/castleBrickWall/castleBrickWallARM.webp"
 );
 const wallNormalTexture = textureLoader.load(
-  "./wall/castleBrickWall/castleBrickWallNormal.jpg"
+  "./wall/castleBrickWall/castleBrickWallNormal.webp"
 );
 
 wallColorTexture.colorSpace = THREE.SRGBColorSpace;
 
 // Roof Texture
 const roofColorTexture = textureLoader.load(
-  "./roof/roofSlates/roofSlatesColor.jpg"
+  "./roof/roofSlates/roofSlatesColor.webp"
 );
 const roofARMTexture = textureLoader.load(
-  "./roof/roofSlates/roofSlatesARM.jpg"
+  "./roof/roofSlates/roofSlatesARM.webp"
 );
 const roofNormalTexture = textureLoader.load(
-  "./roof/roofSlates/roofSlatesNormal.jpg"
+  "./roof/roofSlates/roofSlatesNormal.webp"
 );
 
 roofColorTexture.colorSpace = THREE.SRGBColorSpace;
@@ -92,25 +92,25 @@ roofARMTexture.wrapS = THREE.RepeatWrapping;
 roofNormalTexture.wrapS = THREE.RepeatWrapping;
 
 // Door - Texture
-const doorAlphaTexture = textureLoader.load("./door/alpha.jpg");
-const doorAOTexture = textureLoader.load("./door/ambientOcclusion.jpg");
-const doorColorTexture = textureLoader.load("./door/color.jpg");
-const doorHeightTexture = textureLoader.load("./door/height.jpg");
-const doorMetalnessTexture = textureLoader.load("./door/metalness.jpg");
-const doorNormalTexture = textureLoader.load("./door/normal.jpg");
-const doorRoughnessTexture = textureLoader.load("./door/roughness.jpg");
+const doorAlphaTexture = textureLoader.load("./door/alpha.webp");
+const doorAOTexture = textureLoader.load("./door/ambientOcclusion.webp");
+const doorColorTexture = textureLoader.load("./door/color.webp");
+const doorHeightTexture = textureLoader.load("./door/height.webp");
+const doorMetalnessTexture = textureLoader.load("./door/metalness.webp");
+const doorNormalTexture = textureLoader.load("./door/normal.webp");
+const doorRoughnessTexture = textureLoader.load("./door/roughness.webp");
 
 doorColorTexture.colorSpace = THREE.SRGBColorSpace;
 
 // Bushes - Texture
 const bushColorTexture = textureLoader.load(
-  "./bush/forestLeaves/forestLeavesColor.jpg"
+  "./bush/forestLeaves/forestLeavesColor.webp"
 );
 const bushARMTexture = textureLoader.load(
-  "./bush/forestLeaves/forestLeavesARM.jpg"
+  "./bush/forestLeaves/forestLeavesARM.webp"
 );
 const bushNormalTexture = textureLoader.load(
-  "./bush/forestLeaves/forestLeavesNormal.jpg"
+  "./bush/forestLeaves/forestLeavesNormal.webp"
 );
 
 bushColorTexture.colorSpace = THREE.SRGBColorSpace;
@@ -125,13 +125,13 @@ bushNormalTexture.wrapS = THREE.RepeatWrapping;
 
 // Graves - Texture
 const graveColorTexture = textureLoader.load(
-  "./grave/plasteredStone/plasteredStoneColor.jpg"
+  "./grave/plasteredStone/plasteredStoneColor.webp"
 );
 const graveARMTexture = textureLoader.load(
-  "./grave/plasteredStone/plasteredStoneARM.jpg"
+  "./grave/plasteredStone/plasteredStoneARM.webp"
 );
 const graveNormalTexture = textureLoader.load(
-  "./grave/plasteredStone/plasteredStoneNormal.jpg"
+  "./grave/plasteredStone/plasteredStoneNormal.webp"
 );
 
 graveColorTexture.colorSpace = THREE.SRGBColorSpace;
@@ -362,7 +362,7 @@ const camera = new THREE.PerspectiveCamera(
 );
 camera.position.x = 5;
 camera.position.y = 4;
-camera.position.z = 10;
+camera.position.z = 7;
 scene.add(camera);
 
 // Controls
